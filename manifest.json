@@ -1,11 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Gerador de Pessoas",
-  "description": "",
-  "version": "1.0",
+  "description": "Gere nome, CPF, email, endereço e outros dados pessoais fictícios para suas necessidades.",
+  "version": "0.0.0.1",
   "action": {
     "default_popup": "/popup/popup.html",
-    "default_icon": "/images/icon.png"
+    "default_icon": {
+      "16": "/images/icon16.png",
+      "48": "/images/icon48.png",
+      "128": "/images/icon128.png"
+    }
   },
   "permissions": [
     "contextMenus",
@@ -13,6 +17,8 @@
     "scripting"
   ],
   "icons": {
-    "16": "icon.png"
+    "16": "/images/icon16.png",
+    "48": "/images/icon48.png",
+    "128": "/images/icon128.png"
   }
 }
