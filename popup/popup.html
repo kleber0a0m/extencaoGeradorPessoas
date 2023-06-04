@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="popup.css">
+    <title>Gerador de Pessoas</title>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+<h2 class="text-center mt-3">Gerador de Pessoas</h2>
+<div class="mx-4">
+    <button class="btn btn-secondary mx-auto d-block mt-3" id="btnGerar">Gerar Pessoa</button>
+    <form>
+        <hr>
+        <h6 class="h6 mt-3">Dados Pessoais:</h6>
+        <div class="form-group mt-3">
+            <label for="nomeInput" class="form-label">Nome:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="nomeInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarNome" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group col-6 mt-2">
+                <label for="cpfInput" class="form-label">CPF:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="cpfInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarCPF" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group col-6 mt-2">
+                <label for="rgInput" class="form-label">RG:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="rgInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarRG" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group  col-6 mt-2">
+                <label for="celularInput" class="form-label">Celular:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="celularInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarCelular" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group col-6 mt-2">
+                <label for="telefoneInput" class="form-label">Telefone:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="telefoneInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarTelefone" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="dataNascimentoInput" class="form-label">Data de Nascimento:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="dataNascimentoInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarDataNascimento" type="button">Copiar</button>
+            </div>
+        </div>
+        <hr>
+        <h6 class="h6 mt-3">Online:</h6>
+        <div class="form-group mt-2">
+            <label for="emailInput" class="form-label">Email:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="emailInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarEmail" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="siteInput" class="form-label">Site:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="siteInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarSite" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="senhaInput" class="form-label">Senha:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="senhaInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarSenha" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="usuarioInput" class="form-label">Usuário:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="usuarioInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarUsuario" type="button">Copiar</button>
+            </div>
+        </div>
+        <h6 class="h6 mt-3">Endereço:</h6>
+        <hr>
+        <div class="form-group mt-3">
+            <label for="cepInput" class="form-label">CEP:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="cepInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarCep" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group mt-2 col-8">
+                <label for="logradouroInput" class="form-label">Logradouro:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="logradouroInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarLogradouro" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group mt-2 col-4">
+                <label for="numeroInput" class="form-label">Número:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="numeroInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarNumero" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="bairroInput" class="form-label">Bairro:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="bairroInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarBairro" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group mt-2 col-6">
+                <label for="complementoInput" class="form-label">Complemento:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="complementoInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarComplemento" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group mt-2 col-6">
+                <label for="cidadeInput" class="form-label">Cidade:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="cidadeInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarCidade" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group mt-2 col-6">
+                <label for="estadoInput" class="form-label">Estado:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="estadoInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarEstado" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group mt-2 col-6">
+                <label for="estadoSiglaInput" class="form-label">Sigla do Estado:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="estadoSiglaInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarEstadoSigla" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h6 class="h6 mt-3">Filiação:</h6>
+        <div class="form-group mt-3">
+            <label for="maeInput" class="form-label">Mãe:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="maeInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarMae" type="button">Copiar</button>
+            </div>
+        </div>
+        <div class="form-group mt-2">
+            <label for="paiInput" class="form-label">Pai:</label>
+            <div class="input-group">
+                <input type="text" class="form-control" id="paiInput" readonly>
+                <button class="btn btn-outline-secondary" id="btnCopiarPai" type="button">Copiar</button>
+            </div>
+        </div>
+        <hr>
+        <h6 class="h6 mt-3">Outras Caracteristicas:</h6>
+        <div class="row">
+            <div class="form-group mt-3 col-6">
+                <label for="signoInput" class="form-label">Signo:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="signoInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarSigno" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group mt-3 col-6">
+                <label for="tipoSanguineoInput" class="form-label">Tipo Sanguíneo:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="tipoSanguineoInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarTipoSanguineo" type="button">Copiar</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group mt-2 col-6">
+                <label for="alturaInput" class="form-label">Altura:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="alturaInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarAltura" type="button">Copiar</button>
+                </div>
+            </div>
+            <div class="form-group mt-2 col-6">
+                <label for="pesoInput" class="form-label">Peso:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="pesoInput" readonly>
+                    <button class="btn btn-outline-secondary" id="btnCopiarPeso" type="button">Copiar</button>
+                </div>
+        </div>
+        </div>
+    </form>
+    <hr>
+
+    <p type="button" class="text-center my-3" data-bs-toggle="modal" data-bs-target="#saibaMaisModal">
+        <a>Saiba mais</a>
+    </p>
+    <hr>
+
+    <div class="modal fade" id="saibaMaisModal" tabindex="-1" aria-labelledby="saibaMaisModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="saibaMaisModalLabel">Eae, beleza?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        IMPORTANTE: Nosso gerador online de Pessoa tem como intenção ajudar estudantes, programadores, analistas e testadores a gerar documentos necessários para testar seus softwares em desenvolvimento. No entanto, é crucial lembrar que a má utilização dos dados gerados é de total responsabilidade do usuário.
+                    </p>
+                    <p>
+                        Os números e informações gerados são aleatórios e seguem as regras de criação de cada documento. Porém, é fundamental que você utilize esses dados de maneira ética e legal, respeitando a privacidade e os direitos das pessoas.
+                    </p>
+                    <p>
+                        A extensão "Gerador de Pessoa", desenvolvida por <a target="_blank" href="https://bit.ly/45Ly9JR">Kléber Albino Moreira</a>, utiliza APIs para gerar informações pessoais aleatórias, como nome e endereço. Ela faz uso da API do "<a
+                            href="https://bit.ly/3oDlKax" target="_blank">Gerador Brasileiro</a>" para obter dados aleatórios sobre pessoas brasileiras, é usado a API do "<a
+                            href="https://bit.ly/42kEadS" target="_blank">ViaCEP</a>" para obter endereços reais com base na sigla do estado e no nome da cidade fornecidos pelo Gerador Brasileiro.
+                    </p>
+                    <p>
+                        Além disso, Kléber modificou a lógica para gerar emails aleatórios, adicionando sua própria personalização ao processo.
+                    </p>
+                    <p>Links Úteis:</p>
+                    <ul>
+                        <li><a href="https://bit.ly/45Ly9JR" target="_blank">Site do Kléber</a></li>
+                        <li><a href="https://bit.ly/3MKS6rP" target="_blank">Linkedin do Kléber</a></li>
+                        <li><a href="" target="_blank">GitHub da Extensão</a></li>
+                        <li><a href="https://bit.ly/3oDlKax" target="_blank">API Gerador Brasileiro</a></li>
+                        <li><a href="https://bit.ly/42kEadS" target="_blank">API ViaCEP</a></li>
+                    </ul>
+                    <h6>
+                        Tenha em mente que a responsabilidade pelo uso adequado e ético dos dados gerados é sua. Utilize-os de acordo com as leis e regulamentações aplicáveis e respeite a privacidade das pessoas envolvidas.
+                    </h6>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
