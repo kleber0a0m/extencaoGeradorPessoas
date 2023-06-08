@@ -10,7 +10,7 @@ Aproveite a praticidade e eficiÃªncia do "Gerador de Pessoa" e tenha uma experiÃ
 
 Testado nos seguintes navegadores:
 
-Microsoft Edge ([baixe aqui](https://bit.ly/3oDlKax)) 
+Microsoft Edge ([baixe aqui](	https://microsoftedge.microsoft.com/addons/detail/dpgiaonoepijnodnffinpdgiopddifog)) 
 
 Google Chrome
 
