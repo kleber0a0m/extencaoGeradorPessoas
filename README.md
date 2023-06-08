@@ -8,14 +8,15 @@ Por favor, esteja ciente de que o uso adequado e ético dos dados gerados é sua
 
 Aproveite a praticidade e eficiência do "Gerador de Pessoa" e tenha uma experiência tranquila ao preencher formulários e realizar testes em seus projetos. Se tiver alguma dúvida ou feedback, não hesite em entrar em contato.
 
+Disponivel para:
+
 Agradecemos por utilizar a extensão "Gerador de Pessoa"!
 
 ## Imagens
-![image](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/33e4e254-1bc4-4bdd-a3b9-bece04fb6d25)
-![image](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/4e167d55-2b2e-46c8-8ea1-af568452a842)
-![image](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/7ed02ae5-0750-426b-807b-0810708c4062)
-![image](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/62420ca1-c4fb-46fb-8b43-7de6f5721053)
-
+![a](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/7aa0840b-bd15-44a8-85da-fc9a0aa24cef)
+![b](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/1ceefdca-73e7-41cf-bd0d-28a201a952b2)
+![c](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/9652ef69-ce5b-495f-8da1-ae74f293ce95)
+![d](https://github.com/kleber0a0m/extencaoGeradorPessoas/assets/70644405/346ae5ae-035e-42f6-a04f-f33a63cb0051)
 
 
 Links Úteis:
