@@ -9,9 +9,13 @@ Por favor, esteja ciente de que o uso adequado e ético dos dados gerados é sua
 Aproveite a praticidade e eficiência do "Gerador de Pessoa" e tenha uma experiência tranquila ao preencher formulários e realizar testes em seus projetos. Se tiver alguma dúvida ou feedback, não hesite em entrar em contato.
 
 Testado nos seguintes navegadores:
+
 Microsoft Edge ([baixe aqui](https://bit.ly/3oDlKax)) 
+
 Google Chrome
+
 Opera
+
 
 Agradecemos por utilizar a extensão "Gerador de Pessoa"!
 
